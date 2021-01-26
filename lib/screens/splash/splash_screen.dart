@@ -4,7 +4,8 @@ import 'package:ipetv1/screens/splash/components/body.dart';
 import 'package:ipetv1/size_config.dart';
 
 class SplashScreen extends StatelessWidget {
-  static String routeName = "/splash";
+  // static String routeName = "/splash";
+  static String id = 'SplashScreen';
   @override
   Widget build(BuildContext context) {
     // You have to call it on your starting screen

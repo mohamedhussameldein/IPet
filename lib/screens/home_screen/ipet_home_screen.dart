@@ -5,6 +5,8 @@ import 'package:ipetv1/widgets/ipet_bottom_nav_bar.dart';
 import 'package:provider/provider.dart';
 
 class IPetNavHomeScreen extends StatelessWidget {
+  // static String routeName = "/home-screen";
+  static String id = "IPetNavHomeScreen";
   @override
   Widget build(BuildContext context) {
     NavigationBBarData navigationBBarData =

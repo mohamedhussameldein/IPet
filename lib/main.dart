@@ -6,6 +6,10 @@ import 'package:ipetv1/screens/splash/splash_screen.dart';
 import 'package:ipetv1/theme.dart';
 import 'package:provider/provider.dart';
 
+import 'screens/intro_screen/intro_screen.dart';
+import 'screens/intro_screen/intro_screen.dart';
+import 'screens/splash/splash_screen.dart';
+
 // import 'package:shop_app/routes.dart';
 // import 'package:shop_app/screens/profile/profile_screen.dart';
 // import 'package:shop_app/screens/splash/splash_screen.dart';
@@ -44,7 +48,7 @@ class _MyAppState extends State<MyApp> {
                 theme: theme(),
                 // home: SplashScreen(),
                 // We use routeName so that we dont need to remember the name
-                initialRoute: SplashScreen.routeName,
+                initialRoute: IntroScreen.id,
                 routes: routes,
               ),
             ),

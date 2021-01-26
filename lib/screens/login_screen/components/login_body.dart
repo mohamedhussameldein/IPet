@@ -10,6 +10,12 @@ import 'package:ipetv1/widgets/ipet_default_button.dart';
 import 'package:ipetv1/widgets/label.dart';
 import 'package:ipetv1/widgets/my_custom_card.dart';
 
+import '../../home_screen/home_test.dart';
+import '../../home_screen/ipet_home_screen.dart';
+import '../../home_screen/ipet_home_screen.dart';
+import '../../home_screen/ipet_home_screen.dart';
+import '../../intro_screen/intro_screen.dart';
+
 class LoginBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -160,7 +166,8 @@ class LoginBody extends StatelessWidget {
                       ),
                     ),
                     IPetDefaultButton(
-                      onTap: () {},
+                      onTap: () {
+                      },
                       buttonTitle: AppConst.kLoginWithGoogleTxt,
                       colour: Colors.red,
                       height: IPetDimens.space50,
@@ -233,15 +240,16 @@ class LoginBody extends StatelessWidget {
                     Center(
                       child: GestureDetector(
                         onTap: () {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (BuildContext context) =>
-                                  // IPetBNavigation(),
-                                  // IPetHomeScreen(),
-                                  IPetNavHomeScreen(),
-                            ),
-                          );
+                          // Navigator.pushReplacement(context,
+                          //   MaterialPageRoute(
+                          //     builder: (BuildContext context) =>
+                          //         // IPetBNavigation(),
+                          //         // IPetHomeScreen(),
+                          //         IPetNavHomeScreen(),
+                          //   ),
+                          // );
+                          Navigator.pushReplacementNamed(context,
+                              IPetNavHomeScreen.id);
                         },
                         child: Label(
                           textColor: AppConst.kSecondaryColor,

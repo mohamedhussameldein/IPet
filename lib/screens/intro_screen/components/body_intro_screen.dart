@@ -81,7 +81,7 @@ class BodyIntroScreen extends StatelessWidget {
 
                     IPetDefaultButton(
                       onTap: () {
-                        Navigator.pushNamed(context, IPetLoginScreen.routeName);
+                        Navigator.pushNamed(context, IPetLoginScreen.id);
                       },
                       buttonTitle: AppConst.kContinueTxt,
                       colour: AppConst.kPrimaryColor,
