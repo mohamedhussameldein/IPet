@@ -1,0 +1,43 @@
+name: ipetv1
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Add this line
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+  provider:
+  flutter_svg:
+  flutter_screenutil: ^4.0.2+3
+  country_code_picker: ^1.7.0
+  intl_phone_field: ^1.4.2
+  custom_navigation_bar: ^0.7.0
+  font_awesome_flutter: ^8.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
