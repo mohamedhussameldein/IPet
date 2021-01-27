@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class IPetHomeScreen extends StatefulWidget {
+  static String id = 'IPetHomeScreen';
   @override
   _IPetHomeScreenState createState() => _IPetHomeScreenState();
 }

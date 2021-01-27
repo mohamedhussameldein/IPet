@@ -5,7 +5,8 @@ import 'package:ipetv1/constants/constants.dart';
 import 'package:ipetv1/screens/login_screen/components/login_body.dart';
 
 class IPetLoginScreen extends StatelessWidget {
-  static String routeName = "/login-screen";
+  // static String routeName = "/login-screen";
+  static String id = "IPetLoginScreen";
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
