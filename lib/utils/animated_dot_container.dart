@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ipetv1/constants/constants.dart';
-import 'package:ipetv1/providers/intro_screen/intro_screen_data.dart';
+import 'package:ipetv1/models/notifiers/intro_screen/intro_screen_data.dart';
 import 'package:provider/provider.dart';
 
 class AnimatedDotContainer extends StatelessWidget {

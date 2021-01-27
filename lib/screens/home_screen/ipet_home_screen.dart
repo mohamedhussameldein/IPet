@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ipetv1/providers/nav_b_bar/navigation_bbar_data.dart';
+import 'package:ipetv1/models/notifiers/nav_b_bar/navigation_bbar_data.dart';
 import 'package:ipetv1/screens/home_screen/components/ipet_page_view.dart';
 import 'package:ipetv1/widgets/ipet_bottom_nav_bar.dart';
 import 'package:provider/provider.dart';

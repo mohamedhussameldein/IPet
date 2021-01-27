@@ -2,7 +2,7 @@ import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ipetv1/constants/constants.dart';
-import 'package:ipetv1/providers/nav_b_bar/navigation_bbar_data.dart';
+import 'package:ipetv1/models/notifiers/nav_b_bar/navigation_bbar_data.dart';
 import 'package:provider/provider.dart';
 
 class IPetBottomNavBar extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ipetv1/constants/constants.dart';
 import 'package:ipetv1/constants/ipet_dimens.dart';
-import 'package:ipetv1/providers/intro_screen/intro_screen_data.dart';
+import 'package:ipetv1/models/notifiers/intro_screen/intro_screen_data.dart';
 import 'package:ipetv1/screens/intro_screen/components/intro_content.dart';
 import 'package:ipetv1/screens/login_screen/login_screen.dart';
 import 'package:ipetv1/size_config.dart';

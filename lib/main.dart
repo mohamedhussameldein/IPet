@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:ipetv1/providers/intro_screen/intro_screen_data.dart';
-import 'package:ipetv1/providers/nav_b_bar/navigation_bbar_data.dart';
+import 'package:ipetv1/models/notifiers/intro_screen/intro_screen_data.dart';
+import 'package:ipetv1/models/notifiers/nav_b_bar/navigation_bbar_data.dart';
 import 'package:ipetv1/routes.dart';
 import 'package:ipetv1/screens/splash/splash_screen.dart';
 import 'package:ipetv1/theme.dart';
 import 'package:provider/provider.dart';
 
-import 'screens/intro_screen/intro_screen.dart';
 import 'screens/intro_screen/intro_screen.dart';
 import 'screens/splash/splash_screen.dart';
 
