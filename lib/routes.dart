@@ -33,5 +33,5 @@ final Map<String, WidgetBuilder> routes = {
  SplashScreen.id : (context) => SplashScreen(),
   IntroScreen.id :(context)=> IntroScreen(),
   IPetLoginScreen.id : (context) => IPetLoginScreen(),
-  IPetHomeScreen.id : (context) => IPetHomeScreen(),
+  IPetNavHomeScreen.id : (context) => IPetNavHomeScreen(),
 };

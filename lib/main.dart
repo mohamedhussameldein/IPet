@@ -15,7 +15,9 @@ import 'screens/splash/splash_screen.dart';
 // import 'package:shop_app/screens/splash/splash_screen.dart';
 
 void main() {
-  runApp(MaterialApp(home: MyApp()));
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+      home: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
@@ -43,7 +45,6 @@ class _MyAppState extends State<MyApp> {
                 ),
               ],
               child: MaterialApp(
-                debugShowCheckedModeBanner: false,
                 // title: 'Flutter Demo',
                 theme: theme(),
                 // home: SplashScreen(),

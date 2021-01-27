@@ -240,16 +240,16 @@ class LoginBody extends StatelessWidget {
                     Center(
                       child: GestureDetector(
                         onTap: () {
-                          // Navigator.pushReplacement(context,
-                          //   MaterialPageRoute(
-                          //     builder: (BuildContext context) =>
-                          //         // IPetBNavigation(),
-                          //         // IPetHomeScreen(),
-                          //         IPetNavHomeScreen(),
-                          //   ),
-                          // );
-                          Navigator.pushReplacementNamed(context,
-                              IPetNavHomeScreen.id);
+                          Navigator.pushReplacement(context,
+                            MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  // IPetBNavigation(),
+                                  // IPetHomeScreen(),
+                                  IPetNavHomeScreen(),
+                            ),
+                          );
+
+                           // Navigator.pushNamed(context, IPetNavHomeScreen.id);
                         },
                         child: Label(
                           textColor: AppConst.kSecondaryColor,

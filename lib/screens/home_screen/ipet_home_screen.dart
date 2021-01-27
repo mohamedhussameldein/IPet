@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 
 class IPetNavHomeScreen extends StatelessWidget {
   // static String routeName = "/home-screen";
-  static String id = "IPetNavHomeScreen";
+  static String id = 'IPetNavHomeScreen';
   @override
   Widget build(BuildContext context) {
     NavigationBBarData navigationBBarData =
