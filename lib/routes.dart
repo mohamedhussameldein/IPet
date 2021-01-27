@@ -1,24 +1,10 @@
 import 'package:flutter/widgets.dart';
-import 'package:ipetv1/constants/route_paths.dart';
+import 'package:ipetv1/screens/home_screen/ipet_home_screen.dart';
 import 'package:ipetv1/screens/intro_screen/intro_screen.dart';
 import 'package:ipetv1/screens/login_screen/login_screen.dart';
 
-import 'constants/route_paths.dart';
-import 'screens/home_screen/home_test.dart';
-import 'screens/home_screen/home_test.dart';
-import 'screens/home_screen/home_test.dart';
-import 'screens/home_screen/home_test.dart';
-import 'screens/home_screen/ipet_home_screen.dart';
-import 'screens/home_screen/ipet_home_screen.dart';
-import 'screens/home_screen/ipet_home_screen.dart';
-import 'screens/home_screen/ipet_home_screen.dart';
-import 'screens/home_screen/ipet_home_screen.dart';
-import 'screens/intro_screen/intro_screen.dart';
 import 'screens/intro_screen/intro_screen.dart';
 import 'screens/login_screen/login_screen.dart';
-import 'screens/login_screen/login_screen.dart';
-import 'screens/login_screen/login_screen.dart';
-import 'screens/splash/splash_screen.dart';
 import 'screens/splash/splash_screen.dart';
 
 // All our routes will be available here
@@ -30,8 +16,8 @@ final Map<String, WidgetBuilder> routes = {
   // IPetRoutePaths.loginScreen: (context) => IPetLoginScreen(),
   // IPetRoutePaths.homeScreen :(context)=> IPetNavHomeScreen(),
 
- SplashScreen.id : (context) => SplashScreen(),
-  IntroScreen.id :(context)=> IntroScreen(),
-  IPetLoginScreen.id : (context) => IPetLoginScreen(),
-  IPetHomeScreen.id : (context) => IPetHomeScreen(),
+  SplashScreen.id: (context) => SplashScreen(),
+  IntroScreen.id: (context) => IntroScreen(),
+  IPetLoginScreen.id: (context) => IPetLoginScreen(),
+  IPetNavHomeScreen.id: (context) => IPetNavHomeScreen(),
 };

@@ -6,6 +6,7 @@ import 'package:ipetv1/providers/nav_b_bar/navigation_bbar_data.dart';
 import 'package:provider/provider.dart';
 
 class IPetBottomNavBar extends StatelessWidget {
+  static String id = "IPetNavHomeScreen";
   @override
   Widget build(BuildContext context) {
     return Consumer<NavigationBBarData>(
