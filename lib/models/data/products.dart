@@ -1,73 +1,37 @@
-class Products {
-  String productImage;
-  String name;
-  String brand;
-  double price;
-  double totalPrice;
-  String desc;
-  String moreDesc;
-  String foodType;
-  String lifeStage;
-  String flavor;
-  String weight;
-  String ingredients;
-  String directions;
-  String size;
-  String productID;
-  String pet;
-  String category;
-  String subCategory;
-  String service;
-  String tag;
-  int quantity;
+import 'package:flutter/material.dart';
 
-  Products.fromMap(Map<String, dynamic> data) {
-    productImage = data["productImage"];
-    name = data["name"];
-    brand = data["brand"];
-    price = data["price"];
-    totalPrice = data["totalPrice"];
-    desc = data["desc"];
-    moreDesc = data["moreDesc"];
-    foodType = data["foodType"];
-    lifeStage = data["lifeStage"];
-    flavor = data["flavor"];
-    weight = data["weight"];
-    ingredients = data["ingredients"];
-    directions = data["directions"];
-    size = data["size"];
-    productID = data["productID"];
-    pet = data["pet"];
-    category = data["category"];
-    subCategory = data["subCategory"];
-    service = data["service"];
-    tag = data["tag"];
-    quantity = data["quantity"];
-  }
+class Product {
+  Product({
+    @required this.productImage,
+    @required this.name,
+    @required this.brand,
+    @required this.price,
+    this.totalPrice,
+    @required this.desc,
+    this.moreDesc,
+    this.productType,
+    this.weight,
+    @required this.productID,
+    @required this.pet,
+    @required this.category,
+    this.subCategory,
+    this.service,
+    this.quantity,
+  });
 
-  Map<String, dynamic> toMap() {
-    return {
-      'productImage': productImage,
-      'name': name,
-      'brand': brand,
-      'price': price,
-      'totalPrice': totalPrice,
-      'desc': desc,
-      'moreDesc': moreDesc,
-      'foodType': foodType,
-      'lifeStage': lifeStage,
-      'flavor': flavor,
-      'weight': weight,
-      'ingredients': ingredients,
-      'directions': directions,
-      'size': size,
-      'productID': productID,
-      'pet': pet,
-      'category': category,
-      'subCategory': subCategory,
-      'service': service,
-      'tag': tag,
-      'quantity': quantity,
-    };
-  }
+  final String productImage;
+  final String name;
+  final String brand;
+  final double price;
+  final double totalPrice;
+  final String desc;
+  final String moreDesc;
+  final String productType;
+  final String weight;
+  final String productID;
+  final String pet;
+  final String category;
+  final String subCategory;
+  final String service;
+  final int quantity;
 }
